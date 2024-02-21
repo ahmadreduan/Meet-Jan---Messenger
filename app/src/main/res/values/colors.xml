@@ -1,5 +1,25 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <color name="black">#FF000000</color>
+
+    <color name="colorPrimary">#128C7E</color>
+    <color name="colorPrimaryDark">#075E54</color>
+    <color name="colorAccent">#34B7F1</color>
+
     <color name="white">#FFFFFFFF</color>
+    <color name="lightGray">#D3D3D3</color>
+    <color name="whatsAppColor">#075e54</color>
+    <color name="red">#9F0B0B</color>
+    <color name="status_background">#128c7e</color>
+    <color name="chat_background">#25d366</color>
+    <color name="fb_color">#316FF6</color>
+    <color name="lightgreen">#90ee90</color>
+    <color name="black">#FF000000</color>
+
+    <!-- Night mode colors -->
+    <color name="night_colorPrimary">#0D47A1</color>
+    <color name="night_colorPrimaryDark">#002171</color>
+    <color name="night_colorAccent">#FF4081</color>
+
+
+
 </resources>

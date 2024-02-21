@@ -1,7 +1,18 @@
-<resources xmlns:tools="http://schemas.android.com/tools">
-    <!-- Base application theme. -->
-    <style name="Base.Theme.MeetJan" parent="Theme.Material3.DayNight.NoActionBar">
-        <!-- Customize your dark theme here. -->
-        <!-- <item name="colorPrimary">@color/my_dark_primary</item> -->
+
+<resources>
+
+    <!-- Night theme -->
+    <style name="Base.Theme.MeetJan.Night" parent="Theme.Material3.DayNight">
+        <!-- Customize your night theme here -->
+        <item name="colorPrimary">@color/night_colorPrimary</item>
+        <item name="colorPrimaryDark">@color/night_colorPrimaryDark</item>
+        <item name="colorAccent">@color/night_colorAccent</item>
+        <!-- Define other night-specific attributes here -->
+
+        <!-- Customize the action bar appearance if needed -->
+
     </style>
+
+    <style name="Theme.MeetJan.Night" parent="Base.Theme.MeetJan.Night" />
+
 </resources>

@@ -1,9 +1,19 @@
 <resources xmlns:tools="http://schemas.android.com/tools">
     <!-- Base application theme. -->
-    <style name="Base.Theme.MeetJan" parent="Theme.Material3.DayNight.NoActionBar">
-        <!-- Customize your light theme here. -->
-        <!-- <item name="colorPrimary">@color/my_light_primary</item> -->
+    <style name="Base.Theme.MeetJan" parent="Theme.Material3.DayNight">
+        <!-- Set the colorPrimaryDark for the status bar -->
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <!-- Set the colorPrimary for the action bar -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <!-- Set the style for the action bar -->
+        <item name="actionBarTheme">@style/ThemeOverlay.MeetJan.ActionBar</item>
+
     </style>
 
+    <!-- Style for the action bar -->
+    <style name="ThemeOverlay.MeetJan.ActionBar" parent="ThemeOverlay.Material3.ActionBar">
+        <!-- Customize the action bar appearance if needed -->
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+    </style>
     <style name="Theme.MeetJan" parent="Base.Theme.MeetJan" />
 </resources>

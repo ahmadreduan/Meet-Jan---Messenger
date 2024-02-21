@@ -3,22 +3,21 @@ package com.quantumquestlabs.meetjan;
 import androidx.appcompat.app.ActionBar;
 import androidx.appcompat.app.AppCompatActivity;
 
-import android.graphics.Color;
-import android.graphics.drawable.ColorDrawable;
 import android.os.Bundle;
 
-public class MainActivity extends AppCompatActivity {
+public class SignUpActivity extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_main);
+        setContentView(R.layout.activity_sign_up);
 
+
+        // Hide the action bar
         ActionBar actionBar = getSupportActionBar();
         if (actionBar != null) {
-            actionBar.setBackgroundDrawable(new ColorDrawable(Color.parseColor("#075E54")));
+            actionBar.hide();
         }
-
 
     }
 }
