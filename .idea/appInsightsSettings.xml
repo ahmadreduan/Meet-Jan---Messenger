@@ -8,10 +8,10 @@
             <InsightsFilterSettings>
               <option name="connection">
                 <ConnectionSetting>
-                  <option name="appId" value="PLACEHOLDER" />
-                  <option name="mobileSdkAppId" value="" />
-                  <option name="projectId" value="" />
-                  <option name="projectNumber" value="" />
+                  <option name="appId" value="com.quantumquestlabs.meetjan" />
+                  <option name="mobileSdkAppId" value="1:764546886959:android:6ce9fcd8b87e1480bc45da" />
+                  <option name="projectId" value="meet-jan-messenger" />
+                  <option name="projectNumber" value="764546886959" />
                 </ConnectionSetting>
               </option>
               <option name="signal" value="SIGNAL_UNSPECIFIED" />

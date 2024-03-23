@@ -131,7 +131,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="15dp"
-        android:text="Sign Up with Phone"
+        android:text="@string/sign_up_with_phone"
         android:textColor="#03A9F4" />
 
 </LinearLayout>

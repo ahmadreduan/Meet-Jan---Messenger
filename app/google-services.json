@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "764546886959",
+    "project_id": "meet-jan-messenger",
+    "storage_bucket": "meet-jan-messenger.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:764546886959:android:6ce9fcd8b87e1480bc45da",
+        "android_client_info": {
+          "package_name": "com.quantumquestlabs.meetjan"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAZiX28q2MLMWHT6kYuRYo1PDBDnKiGtWg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
