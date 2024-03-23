@@ -2,12 +2,13 @@
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@color/white"
     android:gravity="center"
     android:orientation="vertical"
-    tools:context=".SignUpActivity">
+    tools:context=".SignInActivity">
 
     <LinearLayout
         android:layout_width="match_parent"
@@ -25,20 +26,6 @@
             android:layout_height="100dp"
             android:src="@drawable/meetjan_home_page_logo" />
 
-        <EditText
-            android:id="@+id/etuserName"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_marginTop="20dp"
-            android:layout_marginBottom="10dp"
-            android:background="#EDC7C7E3"
-            android:ems="10"
-            android:hint="User name"
-            android:inputType="text"
-            android:minHeight="48dp"
-            android:padding="9dp"
-            android:textColor="@color/black"
-            android:textColorHint="#BF070000" />
 
         <EditText
             android:id="@+id/etEmail"
@@ -52,7 +39,8 @@
             android:minHeight="48dp"
             android:padding="9dp"
             android:textColor="@color/black"
-            android:textColorHint="#BF070000" />
+            android:textColorHint="#BF070000"
+            android:layout_marginTop="20dp"/>
 
         <EditText
             android:id="@+id/etPassword"
@@ -68,23 +56,22 @@
             android:textColorHint="#BF070000" />
 
         <TextView
-            android:id="@+id/tvalreadyAccount"
+            android:id="@+id/tvClickSignUp"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_gravity="right"
             android:gravity="right"
             android:padding="3dp"
-
-            android:text="Already Have account" />
+            android:text="Click for SignUp" />
 
         <Button
-            android:id="@+id/btn_signUp"
+            android:id="@+id/btn_signin"
             android:layout_width="150dp"
             android:layout_height="wrap_content"
             android:layout_marginTop="10dp"
             android:backgroundTint="#EDC7C7E3"
             android:padding="15dp"
-            android:text="Sign Up"
+            android:text="Sign IN"
             android:textColor="@color/black"
             app:cornerRadius="4dp" />
 
@@ -122,7 +109,6 @@
                 android:text="Facebook "
                 android:textColor="@color/black"
                 app:cornerRadius="4dp" />
-
         </LinearLayout>
     </LinearLayout>
 
@@ -132,6 +118,13 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="15dp"
         android:text="Sign Up with Phone"
-        android:textColor="#03A9F4" />
+        android:textColor="#000000" />
 
 </LinearLayout>
+
+
+
+
+
+
+
