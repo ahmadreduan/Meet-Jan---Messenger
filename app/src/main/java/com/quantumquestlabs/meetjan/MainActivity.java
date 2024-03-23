@@ -16,8 +16,11 @@ public class MainActivity extends AppCompatActivity {
 
         ActionBar actionBar = getSupportActionBar();
         if (actionBar != null) {
-            actionBar.setBackgroundDrawable(new ColorDrawable(Color.parseColor("#FFFFFF")));
+           // actionBar.setBackgroundDrawable(new ColorDrawable(Color.parseColor("#FFFFFF")));
+            actionBar.hide();
         }
+
+
 
 
     }
