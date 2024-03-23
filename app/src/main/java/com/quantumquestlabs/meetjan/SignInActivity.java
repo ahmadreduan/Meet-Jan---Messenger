@@ -75,6 +75,13 @@ public class SignInActivity extends AppCompatActivity {
 
             }
         });
+        binding.tvClickSignUp.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent = new Intent(SignInActivity.this,SignUpActivity.class);
+                startActivity(intent);
+            }
+        });
         //user staing login
         if (auth.getCurrentUser()!=null){
             Intent intent = new Intent(SignInActivity.this,MainActivity.class);
